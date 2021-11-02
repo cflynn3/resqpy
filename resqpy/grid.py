@@ -3858,7 +3858,7 @@ class Grid(BaseResqpy):
         """
 
         # todo: improve handling of units: check uom for half cell transmissibility property and for absolute modifiers
-
+        print("starting transmissibility method")
         k_tr = j_tr = i_tr = None
 
         if realization is None:
